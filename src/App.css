@@ -79,18 +79,54 @@
   background-color: rgba(0, 0, 0, 0.04);
 }
 
-/* Responsive design for smaller screens */
+/* First, let's adjust the base navbar for mobile */
 @media (max-width: 768px) {
+  .navbar {
+      height: 60px;  /* Increased from 44px for better touch targets */
+  }
+
   .nav-container {
       padding: 0 16px;
   }
-  
-  .nav-menu {
-      gap: 20px;
+
+  /* Make the logo slightly larger on mobile */
+  .logo-image {
+      height: 32px;  /* Increased from 28px */
   }
-  
+
+  /* Adjust the navigation menu spacing and size */
+  .nav-menu {
+      gap: 24px;  /* Adjusted from 20px for better spacing */
+  }
+
   .nav-menu a {
-      font-size: 11px;
+      font-size: 14px;  /* Increased from 11px for better readability */
+      padding: 8px 12px;  /* Larger touch target */
+      border-radius: 8px;
+  }
+}
+
+/* Add an even smaller breakpoint for very small devices */
+@media (max-width: 480px) {
+  .nav-menu {
+      gap: 16px;  /* Further reduce gap on very small screens */
+  }
+
+  .nav-menu a {
+      padding: 8px 10px;
+  }
+
+  /* Consider hiding less important nav items on very small screens */
+  /* Or implement a hamburger menu if needed */
+}
+
+/* Add padding to account for taller navbar on mobile */
+@media (max-width: 768px) {
+  .hero-section,
+  .about-hero,
+  .projects-hero,
+  .contact-hero {
+      padding-top: 80px;  /* Increased to account for taller navbar */
   }
 }
 
