@@ -1,16 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a104018d.css",
-    "main.js": "/portfolio/static/js/main.1e79b843.js",
+    "main.css": "/portfolio/static/css/main.ca7cb81f.css",
+    "main.js": "/portfolio/static/js/main.f990a337.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/Oculat1.png": "/portfolio/static/media/Oculat1.18b7bc8d727b673b771f.png",
+    "static/media/Rod_Emissions.gif": "/portfolio/static/media/Rod_Emissions.d0e039916efc516c979a.gif",
+    "static/media/Bike_Drop.jpeg": "/portfolio/static/media/Bike_Drop.82e1090ec0caaeddb00c.jpeg",
+    "static/media/Cloud_Chamber.png": "/portfolio/static/media/Cloud_Chamber.faff75e5110f3ce6a21e.png",
+    "static/media/Biking.jpeg": "/portfolio/static/media/Biking.72921e24d3bdbcea1201.jpeg",
+    "static/media/Cloud_Chamber2.jpeg": "/portfolio/static/media/Cloud_Chamber2.071d09230e421b92d368.jpeg",
+    "static/media/Winter_Camping.jpeg": "/portfolio/static/media/Winter_Camping.f63a265e37328528ece3.jpeg",
+    "static/media/ECE5_Car.JPG": "/portfolio/static/media/ECE5_Car.00568a268b0bf1fd80ea.JPG",
+    "static/media/Manifold.jpeg": "/portfolio/static/media/Manifold.97922b0dfd4f953f3f47.jpeg",
+    "static/media/My_Face.png": "/portfolio/static/media/My_Face.559f068f6f53ef0d6f8a.png",
+    "static/media/Bike_Camping.jpeg": "/portfolio/static/media/Bike_Camping.c8df271c0683084bed5d.jpeg",
+    "static/media/Car_Buried.jpeg": "/portfolio/static/media/Car_Buried.12e66d246f03939f1ff5.jpeg",
+    "static/media/ECE5_Poster.jpg": "/portfolio/static/media/ECE5_Poster.43ccc5a431a63b4e6e11.jpg",
+    "static/media/DCC_diagram.jpeg": "/portfolio/static/media/DCC_diagram.0cf9a6b7331ac359f2dc.jpeg",
+    "static/media/Regulator.png": "/portfolio/static/media/Regulator.f8a2ec80cd110316a10d.png",
+    "static/media/Manifold2.png": "/portfolio/static/media/Manifold2.03d1874e6ee70f100bea.png",
+    "static/media/Mt_Bachelor.jpeg": "/portfolio/static/media/Mt_Bachelor.41505991dd82052e19aa.jpeg",
+    "static/media/Lorenz.jpg": "/portfolio/static/media/Lorenz.07461dfb606915d8c4b5.jpg",
     "index.html": "/portfolio/index.html",
-    "main.a104018d.css.map": "/portfolio/static/css/main.a104018d.css.map",
-    "main.1e79b843.js.map": "/portfolio/static/js/main.1e79b843.js.map",
+    "main.ca7cb81f.css.map": "/portfolio/static/css/main.ca7cb81f.css.map",
+    "main.f990a337.js.map": "/portfolio/static/js/main.f990a337.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a104018d.css",
-    "static/js/main.1e79b843.js"
+    "static/css/main.ca7cb81f.css",
+    "static/js/main.f990a337.js"
   ]
 }
