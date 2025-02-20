@@ -169,7 +169,7 @@
 
 /* Hero Section */
 .about-hero {
-  min-height: 60vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -198,8 +198,9 @@
 
 /* Introduction Section */
 .about-intro {
-  padding: 120px 20px;
+  padding: 50px 20px;
   background-color: #fff;
+  margin-bottom: 80px;
 }
 
 .content-wrapper {
@@ -231,10 +232,131 @@
   flex: 1;
 }
 
-.profile-image-placeholder {
+.profile-image{
   width: 100%;
-  padding-bottom: 100%; /* Creates a square aspect ratio */
-  background: linear-gradient(45deg, #f2f2f2, #e6e6e6);
+  padding-bottom: 100%;
+  background: url("./static/My_Face.png") center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.snow-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Mt_Bachelor.jpeg") center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.biking-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Biking.jpeg") center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.bike_camp-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Bike_Camping.jpeg") center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.car_buried-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Car_Buried.jpeg") center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.winter_camp-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Winter_Camping.jpeg") center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.bike_drop-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Bike_Drop.jpeg") center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.DCC-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/DCC_diagram.jpeg") center/contain no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.CC-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Cloud_Chamber.png") center/contain no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.CC2-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Cloud_Chamber2.jpeg") center/contain no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.Rod_Emission-gif {
+  width: 100%;
+  height: 100%;  /* Changed from padding-bottom */
+  background: url("./static/Rod_Emissions.gif") center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  background-color: #f5f5f7;  /* Light background for better visibility */
+}
+
+.ECE5-car-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/ECE5_Car.JPG") center/cover no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.ECE5-poster-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/ECE5_Poster.jpg") center/contain no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.Manifold-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Manifold.jpeg") center/contain no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.Regulator-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Regulator.png") center/contain no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.Manifold2-image{
+  width: 100%;
+  padding-bottom: 100%;
+  background: url("./static/Manifold2.png") center/contain no-repeat;
   border-radius: 12px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
@@ -301,7 +423,7 @@
 
 /* Hero Section */
 .contact-hero {
-  min-height: 50vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -565,7 +687,7 @@
 
 /* Hero Section */
 .projects-hero {
-  min-height: 40vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -798,4 +920,257 @@
 
 .experience-card:hover::after {
   opacity: 1;
+}
+
+/* Carousel Styles */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  perspective: 1000px;
+}
+
+.carousel-rotadex {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform: translateZ(-200px);
+}
+
+.carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f7;
+  padding: 20px;
+}
+
+.gif-content {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.image-content {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+}
+
+.carousel-button {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  color: #1d1d1f;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-button:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.carousel-button:active {
+  transform: scale(0.95);
+}
+
+/* Modify your existing image classes to work with the carousel */
+.profile-image,
+.snow-image,
+.biking-image,
+.bike_camp-image,
+.car_buried-image,
+.winter_camp-image,
+.bike_drop-image {
+  padding-bottom: 0;
+  height: 100%;
+}
+
+/* Project Card Enhancements */
+.project-card {
+  /* Improve the base card structure */
+  display: flex;
+  flex-direction: column;
+  min-height: 500px; /* Give more room for the carousel */
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Project Carousel Container */
+.project-carousel {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Fixed height for consistency */
+  perspective: 1000px;
+  background: #f5f5f7;
+  margin-bottom: 20px;
+}
+
+/* Style the carousel within project cards */
+.project-card .carousel-rotadex {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform: translateZ(-200px);
+}
+
+/* Individual carousel items within projects */
+.project-card .carousel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Carousel navigation controls */
+.project-card .carousel-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  z-index: 10;
+}
+
+/* Carousel navigation buttons */
+.project-card .carousel-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #1d1d1f;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+
+.project-card .carousel-button:hover {
+  background: white;
+  transform: scale(1.05);
+}
+
+/* Project information section */
+.project-info {
+  padding: 24px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Links section at the bottom of each card */
+.project-links {
+  margin-top: auto;
+  padding-top: 20px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Individual link buttons */
+.project-link {
+  padding: 8px 16px;
+  border-radius: 980px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Style variations for different types of links */
+.project-link.github {
+  background-color: #24292e;
+  color: white;
+}
+
+.project-link.demo {
+  background-color: #0071e3;
+  color: white;
+}
+
+.project-link.youtube {
+  background-color: #ff0000;
+  color: white;
+}
+
+/* Hover effects for links */
+.project-link:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Make sure technology tags don't conflict with links */
+.project-technologies {
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-card {
+      min-height: 450px;
+  }
+
+  .project-carousel {
+      height: 250px;
+  }
+
+  .project-links {
+      flex-direction: column;
+  }
+
+  .project-link {
+      text-align: center;
+  }
 }

@@ -17,8 +17,8 @@ export default function Home() {
     return (
         <div className="home-container">
             <section className="hero-section">
-                <h1 className="hero-title">Your Headline Here</h1>
-                <p className="hero-subtitle">A compelling subtitle that captures your main value proposition</p>
+                <h1 className="hero-title">My Portfolio</h1>
+                <p className="hero-subtitle">A brief introduction to me and what I've acomplished</p>
                 <div className="cta-buttons">
                     {/* Replace the regular buttons with onClick handlers */}
                     <button 
